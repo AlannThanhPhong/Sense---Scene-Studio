@@ -1707,8 +1707,8 @@ export default function Home() {
         <div className="footer-top">
           <p>[ {t.footer.prompt} ]</p>
           <h2>{t.footer.heading.map((line) => <span key={line}>{line}</span>)}</h2>
-          <a href="mailto:hello@senseandscene.studio" data-cursor={cursor.write} data-magnetic>
-            hello@senseandscene.studio <ArrowUpRight aria-hidden="true" />
+          <a href="mailto:info@sensescene.studio" data-cursor={cursor.write} data-magnetic>
+            info@sensescene.studio <ArrowUpRight aria-hidden="true" />
           </a>
         </div>
 
